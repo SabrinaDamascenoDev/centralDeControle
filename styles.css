@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    padding: 28px 8%;
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-color: ghostwhite;
+}
+
+.titulo{
+    font-size: 180%;
+}
+
+.formularioDeEnvio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.formularioDeEnvio textarea{
+    width: 240%;
+    height: 20em;
+    padding-left: 10%;
+    padding-top: 8%;
+    border-radius: 15px;
+}
+ .btn{
+    width: 250%;
+    height: 2em;
+    margin-top: 5%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.emailContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    padding-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.emailsRegistrados .email p{
+    font-size: 80%;
+
+}
+
+.emailsRegistrados h3{
+    font-size: 150%;
+}
+
+.emailsRegistrados {
+    padding-top: 0%;
+}
+
+.inputForm{
+    padding-left: 5%;
+    width: 240%;
+    height: 2em;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    border: 1px solid gray;
+}
